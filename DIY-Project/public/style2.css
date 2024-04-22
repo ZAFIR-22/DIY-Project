@@ -5,33 +5,195 @@ img{
 a{
     text-decoration: none;
 }
-@media only screen and (max-width: 576px) {
-    .MK {
-      margin-top: 120%;
-    }
+@media (min-width: 280px) {
+  .MK{
+    margin-top: 200% !important;
   }
-  @media only screen and (max-width: 768px) {
-    .MK {
-      margin-top: 120%;
-    }
+  .profile{
+    width: 40dvh;
+    height: 150dvw;
   }
-  @media only screen and (max-width: 992px) {
-    .MK {
-      margin-top: 120%;
-    }
+}
+@media (min-width: 320px) and (max-width: 640px) {
+  .MK{
+    margin-top: 200% !important;
   }
-  @media only screen and (max-width: 1200px) {
-    .MK {
-      margin-top: 120%;
-    }
+  .profile{
+    width: 30dvh;
   }
-  @media only screen and (max-width: 1400px) {
-    .MK {
-      margin-top: 120%;
-    }
+}
+@media (min-width: 375px) {
+  .MK{
+    margin-top: 180% !important;
   }
-  @media only screen and (max-width: 1600px) {
-    .MK {
-      margin-top: 120%;
-    }
+  .profile{
+    width: 35dvh;
+    height: 110dvw;
   }
+}
+@media (min-width: 390px) {
+  .MK{
+    margin-top: 150% !important;
+  }
+  .profile{
+    width: 30dvh;
+    height: 100dvw;
+  }
+}
+@media (min-width: 414px) {
+  .MK{
+    margin-top: 150% !important;
+  }
+  .profile{
+    width: 30dvh;
+  }
+}
+@media (min-width: 425px) {
+  .MK{
+    margin-top: 150% !important;
+  }
+  .profile{
+    width: 30dvh;
+  }
+}
+@media (min-width: 540px) {
+  .MK{
+    margin-top: 100% !important;
+  }
+  .profile{
+    width: 40dvh;
+    height: 80dvw;
+  }
+}
+
+/* Styles for viewports between 641 pixels and 1024 pixels */
+@media (min-width: 640px) and (max-width: 1024px) {
+  .MK{
+    margin-top: 150% !important;
+  }
+  .profile{
+    width: 60dvh;
+    height: 30dvw;
+  }
+}
+@media (min-width: 653px) {
+  .MK{
+    margin-top: 150% !important;
+  }
+  .profile{
+    margin-top: 30%;
+    width: 80dvh;
+    height: 60dvw;
+  }
+}
+@media (min-width: 667px) {
+  .MK{
+    margin-top: 150% !important;
+  }
+  .profile{
+    width: 80dvh;
+    height: 70dvw;
+  }
+}
+@media (min-width: 720px) {
+  .MK{
+    margin-top: 100% !important;
+  }
+  .profile{
+    width: 60dvh;
+  }
+}
+@media (min-width: 768px) {
+  .MK{
+    margin-top: 150% !important;
+  }
+  .profile{
+    width: 60dvh;
+    height: 40dvw;
+  }
+}
+@media (min-width: 820px) {
+  .MK{
+    margin-top: 150% !important;
+  }
+  .profile{
+    width: 50dvh;
+    height: 40dvw;
+  }
+}
+@media (min-width: 824px) {
+  .MK{
+    margin-top: 150% !important;
+  }
+  .profile{
+    width: 120dvh;
+    height: 35dvw;
+  }
+}
+@media (min-width: 844px) {
+  .MK{
+    margin-top: 150% !important;
+  }
+  .profile{
+    width: 120dvh;
+  }
+}
+@media (min-width: 912px) {
+  .MK{
+    margin-top: 100% !important;
+  }
+  .profile{
+    margin-top: -10%;
+    width: 40dvh;
+    height: 40dvw;
+  }
+}
+@media (min-width: 915px) {
+  .MK{
+    margin-top: 150% !important;
+  }
+  .profile{
+    margin-top: 20%;
+    width: 120dvh;
+  }
+}
+/* Styles for viewports between 1025 pixels and 1440 pixels */
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .MK{
+    margin-top: 80% !important; 
+  }
+  .profile{
+    width: 80dvh;
+    height: 30dvw;
+  }
+}
+
+/* Styles for viewports between 1441 pixels and 1920 pixels */
+@media (min-width: 1440px) and (max-width: 1920px) {
+  .MK{
+    margin-top: 50% !important;
+  }
+  .profile{
+    width: 60dvh;
+    height: 20dvw;
+  }
+}
+@media (min-width: 1629px) {
+  .MK{
+    margin-top: 60% !important;
+  }
+  .profile{
+    margin-top: 10%;
+    width: 120dvh;
+  }
+}
+/* Styles for viewports between 1921 pixels and 2560 pixels */
+@media (min-width: 1920px) and (max-width: 2560px) {
+  .MK{
+    margin-top: 50% !important;
+  }
+  .profile{
+    width: 60dvh;
+    height: 20dvw;
+  }
+}

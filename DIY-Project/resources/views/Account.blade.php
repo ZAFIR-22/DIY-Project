@@ -61,7 +61,7 @@ $creations_result = $conn->query($creations_sql);
                     <a class="nav-link navbartext" href="/logout">Kijelentkezés</a>
                 </li>
                 <form class="d-flex"  action="/feltolt">
-                <button class="btn">Feltöltés</button>
+                <button class="btn btn-dark gomb">Feltöltés</button>
             </form>
             </ul>
         </div>
