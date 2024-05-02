@@ -171,7 +171,7 @@ a{
 /* Styles for viewports between 1441 pixels and 1920 pixels */
 @media (min-width: 1440px) and (max-width: 1920px) {
   .MK{
-    margin-top: 50% !important;
+    margin-top: 80% !important;
   }
   .profile{
     width: 60dvh;
@@ -190,7 +190,7 @@ a{
 /* Styles for viewports between 1921 pixels and 2560 pixels */
 @media (min-width: 1920px) and (max-width: 2560px) {
   .MK{
-    margin-top: 50% !important;
+    margin-top: 60% !important;
   }
   .profile{
     width: 60dvh;
