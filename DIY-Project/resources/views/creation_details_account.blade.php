@@ -105,7 +105,7 @@ if (isset($_SESSION["user_id"])){
 </div>
 <script>
 function torles() {
-    if (confirm("Biztosan törölni szeretné ezt a létrehozást?")) {
+    if (confirm("Biztosan törölni szeretné ezt a kreálmányt?")) {
         var xhr = new XMLHttpRequest();
         xhr.open("POST", "torles.php", true);
         xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
